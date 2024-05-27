@@ -23,26 +23,21 @@
 
 
 
-// // 1. Student Data Interface
 
 
-interface Student  {
-     name: string;
-    isSenior: boolean; // True if the student is a senior, false otherwise
-    completedAssignments: boolean; // True if the student has completed assignments, false otherwise
-  }
+// 1. Student Data Interface
+interface Student {
+  name: string;
+  isSenior: boolean;
+  completedAssignments: boolean;
+}
 
-
-
-
+// 2. Student List
+const students: Student[] = [
+  { name: "Saima", isSenior: true, completedAssignments: true },
+  { name: "Yusra", isSenior: false, completedAssignments: false },
+  { name: "Waheed", isSenior: true, completedAssignments: true },
   
-//   // 2. Student List
-
-const student :String[] = ["Saima",
-"anshara",
-"Hania",
-"Hareem",
-"waheed"
 ];
 
 console.log(student, "student");
